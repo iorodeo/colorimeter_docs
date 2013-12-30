@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Introduction &mdash; Colorimeter User Manual</title>
+    
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/print.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/theme_extras.js"></script>
+    <link rel="top" title="Colorimeter User Manual" href="index.html" />
+    <link rel="next" title="Kit Contents" href="kit_contents.html" />
+    <link rel="prev" title="Open source DIY kit" href="index.html" /> 
+  </head>
+  <body>
+      <div class="header"><img class="rightlogo" src="_static/logo_2.png" alt="Logo"/><h1 class="heading"><a href="index.html">
+          <span>Colorimeter User Manual</span></a></h1>
+        <h2 class="heading"><span>Introduction</span></h2>
+      </div>
+      <div class="topnav">
+      
+        <p>
+        «&#160;&#160;<a href="index.html">Open source DIY kit</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="kit_contents.html">Kit Contents</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>Colorimeters are analytical devices commonly used in science labs to measure the concentration of a solution from its light absorbing properties. Colorimeters are extremely useful and flexible lab instruments for a wide range of science education labs.  Some examples of how they are used include:</p>
+<ul class="simple">
+<li>Color and absorbance  - Investigate the relationship between the color of a substance and absorption of light at different wavelengths. See <a class="reference internal" href="lab_1.html#lab1-label"><em>Lab 1: Introduction to Colorimetry</em></a></li>
+<li>Beer’s Law - Investigate the relationship between concentration and absorbance using colored solutions (eg. food dye, copper sulfate). Calculate molar extinction coefficient. See <a class="reference internal" href="lab_2.html#lab2-label"><em>Lab 2: Beer&#8217;s Law and Molar Extinction Coefficients</em></a></li>
+<li>Nitrogen cycle - Quantify the breakdown (oxidation) of ammonia into nitrite and nitrate by nitrification bacteria. See <a class="reference internal" href="lab_3.html#lab3-label"><em>Lab 3: Ammonia and nitrate measurements</em></a></li>
+<li>Water quality - Measure several water parameters such as turbidity, chlorine content, pH, water hardness, phosphate content and more;</li>
+<li>Population growth - Measure the turbidity of a microbial culture over time, which serves as an indicator of population growth;</li>
+<li>Enzyme kinetics - Measure the activity of an enzyme over time, even under different environmental conditions (temperature, pH, inhibitors, substrate);</li>
+</ul>
+<p>The Educational Colorimeter essentially consists of an RGB LED and a color sensor in a light-tight enclosure which is connected to an Arduino via a colorimeter shield.</p>
+<div class="figure align-center">
+<img alt="_images/image_02.png" src="_images/image_02.png" />
+</div>
+<p>A cuvette holder in the center of the light-tight enclosure properly positions the sample between the LED and the light sensor. When the Educational Colorimeter is operating, the RGB LED illuminates one side of the sample in the cuvette using one of three different wavelengths of light: 625 nm (red), 528 nm (true green) and 470 nm (blue). Light transmitted through the sample passes through a slit on the inner wall of the enclosure to the light sensor. Absorbance of the sample in the cuvette is determined by comparing the intensity of incident light to the intensity of transmitted light as follows:</p>
+<div class="math">
+<p><img src="_images/math/9706b708c3999f4aafae2c95b5aca1f34dde6980.png" alt="\mathrm{Incident \hspace*{3px} light} = I; \hspace*{10px} \mathrm{Transmitted \hspace*{3px} light} = I_0"/></p>
+</div><div class="math">
+<p><img src="_images/math/d5796e6fed4b07b19026b834bb6629e385efe272.png" alt="\mathrm{Absorbance} = log_{10} (I/I_0)"/></p>
+</div><div class="figure align-center">
+<img alt="_images/image_03.png" src="_images/image_03.png" />
+</div>
+<p>The Educational Colorimeter uses eight (8) digital signals for normal operation. The provided Arduino shield connects 8 digital input-output (DIO) pins of the Arduino microcontroller board with the light sensor and RGB LED.</p>
+<div class="figure align-center">
+<img alt="_images/image_04.png" src="_images/image_04.png" />
+</div>
+</div>
+
+
+      </div>
+      <div class="bottomnav">
+      
+        <p>
+        «&#160;&#160;<a href="index.html">Open source DIY kit</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="kit_contents.html">Kit Contents</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer">
+        &copy; Copyright 2013, IO Rodeo.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.
+    </div>
+  </body>
+</html>

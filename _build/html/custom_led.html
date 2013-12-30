@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Optional LED wavelengths &mdash; Colorimeter User Manual</title>
+    
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/print.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/theme_extras.js"></script>
+    <link rel="top" title="Colorimeter User Manual" href="index.html" />
+    <link rel="next" title="Assembly of the colorimeter" href="assembly_step1.html" />
+    <link rel="prev" title="Optional TuxCase kit" href="tuxcase.html" /> 
+  </head>
+  <body>
+      <div class="header"><img class="rightlogo" src="_static/logo_2.png" alt="Logo"/><h1 class="heading"><a href="index.html">
+          <span>Colorimeter User Manual</span></a></h1>
+        <h2 class="heading"><span>Optional LED wavelengths</span></h2>
+      </div>
+      <div class="topnav">
+      
+        <p>
+        «&#160;&#160;<a href="tuxcase.html">Optional TuxCase kit</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="assembly_step1.html">Assembly of the colorimeter</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="optional-led-wavelengths">
+<span id="custom-led-label"></span><h1>Optional LED wavelengths<a class="headerlink" href="#optional-led-wavelengths" title="Permalink to this headline">¶</a></h1>
+<p>In addition to the RGB board that is included with the kit, there are also two additional custom boards that can be used to change the measurement wavelength. These boards can be easily swapped into the colorimeter to replace the RGB board. For example, if you only want one measurement at a wavelength other than the standard ones available, you can use LED Ver B, or for two new wavelengths, use LED Ver C.</p>
+<p>The PCB comes with a pre-mounted 4-pin connector plus an additional laser-cut acrylic mounting plate with hardware. All you need to supply is your choice of LED and resistor. You should select a current limiting resistor for operating your LED from a 5V supply. Sparkfun has a nice tutorial on how to do this given the specs for your LED <a class="reference external" href="https://www.sparkfun.com/tutorials/219">https://www.sparkfun.com/tutorials/219</a>.</p>
+<div class="section" id="led-board-ver-b">
+<h2>LED Board ver B<a class="headerlink" href="#led-board-ver-b" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>This PCB can be used to mount <strong>one</strong> through-hole LED of your choice.</li>
+<li>Pin spacing for the LED is 0.1&#8221; and the hole diameter for the pins is 0.032&#8221;.</li>
+<li>Pin spacing for the current limiting resistor is 0.3&#8221; and the hole diameter is 0.032&#8221;.</li>
+<li>When used with the colorimeter the LED is connected to the Arduino DIO pin that is normally associated with the blue channel of the colorimeter.</li>
+</ul>
+<div class="figure align-center">
+<img alt="_images/customB.JPG" src="_images/customB.JPG" />
+</div>
+</div>
+<div class="section" id="led-board-ver-c">
+<h2>LED Board ver C<a class="headerlink" href="#led-board-ver-c" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>This PCB can be used to mount <strong>two</strong> through-hole LEDs of your choice.</li>
+<li>Pin spacing for the two LEDs is 0.1&#8221; and the hole diameter for the pins is 0.032&#8221;.</li>
+<li>Pin spacing for the current limiting resistors is 0.3&#8221; and the hole diameter is 0.032&#8221;.</li>
+<li>When used with the colorimeter the LEDs are connected to the Arduino DIO pins that are normally associated with the blue (D1) and green (D2) channels of the colorimeter.</li>
+</ul>
+<div class="figure align-center">
+<img alt="_images/customC_2.JPG" src="_images/customC_2.JPG" />
+</div>
+</div>
+<div class="section" id="using-custom-led-boards-with-colorimeter-software">
+<h2>Using custom led boards with colorimeter software<a class="headerlink" href="#using-custom-led-boards-with-colorimeter-software" title="Permalink to this headline">¶</a></h2>
+<p>Before taking measurements, select &#8220;LED Board Ver C&#8221; in the LED drop-down menu of any of the colorimeter programs (basic, plotting and measure). Refer to the Colorimeter User Manual for more details.</p>
+<div class="figure align-center">
+<img alt="_images/screenshot_dropdown_ledboards.png" src="_images/screenshot_dropdown_ledboards.png" />
+</div>
+</div>
+</div>
+
+
+      </div>
+      <div class="bottomnav">
+      
+        <p>
+        «&#160;&#160;<a href="tuxcase.html">Optional TuxCase kit</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="assembly_step1.html">Assembly of the colorimeter</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer">
+        &copy; Copyright 2013, IO Rodeo.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.
+    </div>
+  </body>
+</html>

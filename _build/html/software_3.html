@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Colorimeter plotting program &mdash; Colorimeter User Manual</title>
+    
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/print.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/theme_extras.js"></script>
+    <link rel="top" title="Colorimeter User Manual" href="index.html" />
+    <link rel="next" title="Colorimeter concentration program" href="software_4.html" />
+    <link rel="prev" title="Colorimeter basic program" href="software_2.html" /> 
+  </head>
+  <body>
+      <div class="header"><img class="rightlogo" src="_static/logo_2.png" alt="Logo"/><h1 class="heading"><a href="index.html">
+          <span>Colorimeter User Manual</span></a></h1>
+        <h2 class="heading"><span>Colorimeter plotting program</span></h2>
+      </div>
+      <div class="topnav">
+      
+        <p>
+        «&#160;&#160;<a href="software_2.html">Colorimeter basic program</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="software_4.html">Colorimeter concentration program</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="colorimeter-plotting-program">
+<h1>Colorimeter plotting program<a class="headerlink" href="#colorimeter-plotting-program" title="Permalink to this headline">¶</a></h1>
+<p>This program allows users to generate calibration curves that are typically used to find the concentration of a solution. For an example of a lab using this program see <a class="reference internal" href="lab_2.html#lab2-label"><em>Lab 2: Beer&#8217;s Law and Molar Extinction Coefficients</em></a>.</p>
+<div class="figure align-center">
+<img alt="_images/screenshot_8_9.png" src="_images/screenshot_8_9.png" />
+</div>
+<div class="section" id="procedure-connect-calibrate-measure-plot-export">
+<h2>Procedure: Connect-Calibrate-Measure-Plot-Export<a class="headerlink" href="#procedure-connect-calibrate-measure-plot-export" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>With the plotting program window open enter the serial port corresponding to your device in the program window and click on the “Connect” button in the lower left-hand side.</li>
+<li>Select which LED to use from the options in the upper bar. Unlike the basic program, you can only use one LED for the plotting measurements.</li>
+<li>Calibrate sensor. Place a cuvette with your &#8216;blank&#8217; measurement (e.g. water) inside the colorimeter and click &#8220;Calibrate&#8221;. After calibration, click on &#8220;Measure&#8221; with your &#8216;blank&#8217; cuvette still in place. The colorimeter should return a zero absorbance value.</li>
+<li>Place a cuvette containing your first sample into the colorimeter and click “Measure”. The absorbance value will be displayed in the table. You can either enter the corresponding concentration value at this time or skip ahead to the next measurement.</li>
+<li>At any point after calibration you can plot the data in the table by clicking “Plot”.  A second window will automatically open, and display a scatter plot of the data.</li>
+<li>Once you finished measuring and plotting you can export the data for later use with the concentration program using the “Options-&gt; Export Test Solution” menu item at the top of the program window. After exporting, this file will be automatically available for use with the concentration program.</li>
+</ul>
+<div class="section" id="additional-software-features">
+<h3>Additional software features<a class="headerlink" href="#additional-software-features" title="Permalink to this headline">¶</a></h3>
+<p>See <a class="reference internal" href="additional_features.html#custom-options-label"><em>Software features</em></a> for more information on these features.</p>
+<ul class="simple">
+<li>Custom wavelengths.</li>
+<li>Save data at any point after calibration using the “File -&gt; Save” menu item at the top of the program window.</li>
+<li>Change sample rate.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="additional-software-screenshots">
+<h2>Additional software screenshots<a class="headerlink" href="#additional-software-screenshots" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="start-screen">
+<h3>Start screen<a class="headerlink" href="#start-screen" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center">
+<img alt="_images/screenshot_6.png" src="_images/screenshot_6.png" />
+</div>
+</div>
+<div class="section" id="start-screen-after-connecting-to-the-serial-port">
+<h3>Start screen after connecting to the serial port<a class="headerlink" href="#start-screen-after-connecting-to-the-serial-port" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center">
+<img alt="_images/screenshot_7.png" src="_images/screenshot_7.png" />
+</div>
+</div>
+<div class="section" id="measurement-data">
+<h3>Measurement data<a class="headerlink" href="#measurement-data" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center">
+<img alt="_images/screenshot_8_small.png" src="_images/screenshot_8_small.png" />
+</div>
+</div>
+<div class="section" id="plot-of-data">
+<h3>Plot of data<a class="headerlink" href="#plot-of-data" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center">
+<img alt="_images/screenshot_9.png" src="_images/screenshot_9.png" />
+</div>
+</div>
+<div class="section" id="fitting-data">
+<h3>Fitting data<a class="headerlink" href="#fitting-data" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center">
+<img alt="_images/screenshot_12.png" src="_images/screenshot_12.png" />
+</div>
+</div>
+<div class="section" id="exporting-data">
+<h3>Exporting data<a class="headerlink" href="#exporting-data" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center">
+<img alt="_images/screenshot_13.png" src="_images/screenshot_13.png" />
+</div>
+</div>
+</div>
+</div>
+
+
+      </div>
+      <div class="bottomnav">
+      
+        <p>
+        «&#160;&#160;<a href="software_2.html">Colorimeter basic program</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="software_4.html">Colorimeter concentration program</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer">
+        &copy; Copyright 2013, IO Rodeo.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.
+    </div>
+  </body>
+</html>
