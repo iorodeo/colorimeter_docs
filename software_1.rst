@@ -31,5 +31,5 @@ Mac Users
 
 Windows Users 
 ^^^^^^^^^^^^^^^^^^^^^
-* May require installation of Arduino drivers. See -- add link here.
+* May require installation of Arduino drivers. See http://arduino.cc/en/Guide/Windows for more information. 
  
