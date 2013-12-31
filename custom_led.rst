@@ -40,7 +40,7 @@ LED Board ver C
 Using custom led boards with colorimeter software
 --------------------------------------------------
 
-Before taking measurements, select "LED Board Ver C" in the LED drop-down menu of any of the colorimeter programs (basic, plotting and measure). Refer to the Colorimeter User Manual for more details.
+Before taking measurements, select "LED Board Ver C" in the LED drop-down menu of any of the colorimeter programs (basic, plotting and measure). 
 
 .. figure:: screenshot_dropdown_ledboards.png
    :align:  center
