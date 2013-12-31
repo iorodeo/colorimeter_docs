@@ -5,8 +5,6 @@
 
 Open source DIY kit
 ================================================
-Something here about the open source kit and software.
-
 
 .. figure:: image_01.JPG
    :align:  center
