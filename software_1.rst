@@ -19,7 +19,7 @@ The software suite is divided into 3 standalone programs:
 Installing the open source software
 -----------------------------------------
 
-Download the software for your choice of Operating System (Windows, Mac or Linux) from `www.iorodeo.com/software/colorimeter <www.iorodeo.com/software/colorimeter>`_.  For Windows and Mac OS the files are provided as precompiled binaries so that they can be launched immediately after download. For Linux, installation instructions can be found in the source package.  
+Download the software for your choice of Operating System (Windows, Mac or Linux) from `http://www.iorodeo.com/software/colorimeter <http://www.iorodeo.com/software/colorimeter>`_.  For Windows and Mac OS the files are provided as precompiled binaries so that they can be launched immediately after download. For Linux, installation instructions can be found in the source package.  
 
 
 
