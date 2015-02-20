@@ -15,7 +15,7 @@ Qty     Description                                                             
 4       Enclosure standoffs                   4-40 hex standoffs 1 ¾” long               mcmaster-carr        91780A038                
 2       Cuvette standoffs                     4-40 hex standoffs 1 ¼” long               mcmaster-carr        91780A034
 10      Enclosure screws                      4-40 machine screws, ½” long               mcmaster-carr        91249A111
-2       Cuvette screws                        4-40 machine screws, 38” long              mcmaster-carr        91249A108
+2       Cuvette screws                        4-40 machine screws, 3/8” long              mcmaster-carr        91249A108
 4       Rubber bumpers                                                                   Digikey              SJ5012-0-ND                      
 =====  ===================================    ========================================   ==================   ================         
 

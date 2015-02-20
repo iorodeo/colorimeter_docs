@@ -55,7 +55,12 @@ Sample Labs
    lab_2.rst
    lab_3.rst
    
+Updates
+---------------
+.. toctree::
+   :maxdepth: 2
 
+   cuvette_holder.rst
 
 Indices and tables
 ==================

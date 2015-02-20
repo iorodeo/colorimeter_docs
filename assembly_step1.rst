@@ -1,3 +1,6 @@
+.. _steps_label:
+
+
 Assembly of the colorimeter
 ==============================
 
@@ -42,7 +45,6 @@ To begin assembly of the colorimeter electronics, you will use the hardware in B
 
 .. figure:: image_15.JPG
    :align:  center
-
 
 
 
